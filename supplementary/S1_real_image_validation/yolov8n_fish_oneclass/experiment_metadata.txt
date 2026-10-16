@@ -1,0 +1,11 @@
+Dataset: Fish4Knowledge Roboflow derivative v1
+Task: single-class fish detection
+Original numeric categories merged into one class: fish
+Images: 1879
+Model: YOLOv8n
+Epochs: 30
+Image size: 640
+Batch size: 16
+Random seed: 42
+GPU: Tesla T4
+Training time: 11.95 minutes

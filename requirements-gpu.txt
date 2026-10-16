@@ -1,0 +1,3 @@
+# Optional: only for YOLOv8 training (PW15, S1) and LSTM extensions (PW12); requires Python <= 3.12 for TensorFlow
+ultralytics==8.4.155
+tensorflow==2.18.0

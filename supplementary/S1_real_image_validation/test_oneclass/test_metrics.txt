@@ -1,0 +1,14 @@
+Dataset: Fish4Knowledge Roboflow derivative v1
+Task: single-class fish detection
+Test images: 188
+Annotated fish instances: 751
+Class: fish
+Model: YOLOv8n
+Precision: 0.887
+Recall: 0.885
+mAP@50: 0.934
+mAP@50-95: 0.576
+Preprocessing time: 2.9 ms/image
+Inference time: 4.6 ms/image
+Postprocessing time: 2.4 ms/image
+GPU: NVIDIA Tesla T4

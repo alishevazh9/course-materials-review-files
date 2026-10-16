@@ -1,0 +1,64 @@
+PASS   T5   RAS records                             reported=2600   computed=2600.0   
+PASS   T5   RAS missing values per variable (max)   reported=18     computed=18.0     
+PASS   T5   Fish records                            reported=600    computed=600.0    
+PASS   T5   Rainbow trout                           reported=302    computed=302.0    
+PASS   T5   Risk records                            reported=800    computed=800.0    
+PASS   T5   Risk cases                              reported=111    computed=111.0    
+PASS   T5   Hydrochem records                       reported=1440   computed=1440.0   
+PASS   T5   CV boxes (all)                          reported=391    computed=391.0    
+PASS   4.2  CV boxes in test split                  reported=58     computed=58.0     
+PASS   4.2  PW3 rows after cleaning                 reported=2492   computed=2492.0   
+PASS   4.2  PW3 training rows                       reported=1993   computed=1993.0   
+PASS   4.2  PW4 MAE, g                              reported=52.8   computed=52.8418  
+PASS   4.2  PW4 R2                                  reported=0.987  computed=0.9874   
+PASS   4.2  PW5 CV MAE degree 1, g                  reported=58.9   computed=58.941   
+PASS   4.2  PW5 CV MAE degree 2, g                  reported=49.4   computed=49.3672  
+PASS   4.2  PW5 CV MAE degree 3, g                  reported=48.2   computed=48.2356  
+PASS   4.2  PW6 best alpha                          reported=0.1    computed=0.1      
+PASS   4.2  PW6 CV MAE, g                           reported=59.3   computed=59.2824  
+PASS   T6   tau=0.3 precision                       reported=0.438  computed=0.4375   
+PASS   T6   tau=0.3 recall                          reported=1.0    computed=1.0      
+PASS   T6   tau=0.3 F1                              reported=0.609  computed=0.6087   
+PASS   T6   tau=0.3 FP                              reported=36     computed=36.0     
+PASS   T6   tau=0.3 FN                              reported=0      computed=0.0      
+PASS   T6   tau=0.5 precision                       reported=0.549  computed=0.549    
+PASS   T6   tau=0.5 recall                          reported=1.0    computed=1.0      
+PASS   T6   tau=0.5 F1                              reported=0.709  computed=0.7089   
+PASS   T6   tau=0.5 FP                              reported=23     computed=23.0     
+PASS   T6   tau=0.5 FN                              reported=0      computed=0.0      
+PASS   T6   tau=0.6 precision                       reported=0.578  computed=0.5778   
+PASS   T6   tau=0.6 recall                          reported=0.929  computed=0.9286   
+PASS   T6   tau=0.6 F1                              reported=0.712  computed=0.7123   
+PASS   T6   tau=0.6 FP                              reported=19     computed=19.0     
+PASS   T6   tau=0.6 FN                              reported=2      computed=2.0      
+PASS   T6   tau=0.7 precision                       reported=0.65   computed=0.65     
+PASS   T6   tau=0.7 recall                          reported=0.929  computed=0.9286   
+PASS   T6   tau=0.7 F1                              reported=0.765  computed=0.7647   
+PASS   T6   tau=0.7 FP                              reported=14     computed=14.0     
+PASS   T6   tau=0.7 FN                              reported=2      computed=2.0      
+PASS   T6   tau=0.8 precision                       reported=0.781  computed=0.7812   
+PASS   T6   tau=0.8 recall                          reported=0.893  computed=0.8929   
+PASS   T6   tau=0.8 F1                              reported=0.833  computed=0.8333   
+PASS   T6   tau=0.8 FP                              reported=7      computed=7.0      
+PASS   T6   tau=0.8 FN                              reported=3      computed=3.0      
+PASS   4.2  PW8 average precision                   reported=0.824  computed=0.8242   
+PASS   4.2  PW8 ROC AUC                             reported=0.974  computed=0.9736   
+PASS   4.2  PW9 LR macro-F1                         reported=0.825  computed=0.8248   
+PASS   4.2  PW9 LR average precision                reported=0.865  computed=0.865    
+PASS   4.2  PW9 RF macro-F1                         reported=0.811  computed=0.8115   depends on scikit-learn version (exact with pinned 1.5.2)
+PASS   4.2  PW9 RF average precision                reported=0.81   computed=0.8099   depends on scikit-learn version (exact with pinned 1.5.2)
+PASS   4.2  PW10 one-step naive MAE (last 20%)      reported=0.26   computed=0.2598   
+CHECK  4.2  PW11 ARIMA MAE, mg/L                    reported=0.251  computed=0.2628   version-sensitive (MLE does not fully converge); range 0.24-0.26 observed
+PASS   4.2  PW11 one-step naive MAE (last 120 h)    reported=0.265  computed=0.2655   
+PASS   4.2  12-h hold-last baseline MAE             reported=0.993  computed=0.9928   
+PASS   4.2  24-h seasonal naive MAE                 reported=0.222  computed=0.2215   
+PASS   4.2  24-h seasonal naive RMSE                reported=0.264  computed=0.2642   
+PASS   4.2  Conclusion: seasonal naive beats ARIMA  reported=yes    computed=yes      
+PASS   4.2  PW12 training windows                   reported=1123   computed=1123.0   
+PASS   4.2  PW12 test windows                       reported=288    computed=288.0    
+PASS   4.2  PW13 contours on test_000.png           reported=4      computed=4.0      
+PASS   4.2  PW13 annotated objects on test_000.png  reported=4      computed=4.0      
+PASS   4.2  PW14 mean IoU (simulation)              reported=0.685  computed=0.6854   
+PASS   4.2  PW14 share of boxes IoU>=0.50           reported=0.966  computed=0.9655   
+
+62 checks: 61 PASS, 1 version-sensitive, 0 FAIL

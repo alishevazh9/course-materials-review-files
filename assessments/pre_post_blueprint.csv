@@ -1,0 +1,21 @@
+item,construct,focus,prompt_placeholder,min_score,max_score
+1,Data literacy,"Missing values, admissible ranges, leakage",Item 1: prompt to be validated by domain and education experts,0,4
+2,Regression,Interpreting MAE and R2 for biomass; overfitting,Item 2: prompt to be validated by domain and education experts,0,4
+3,Classification,Recall of rare risk class; threshold and cost of error,Item 3: prompt to be validated by domain and education experts,0,4
+4,Time series,"Baselines, chronological split, horizon",Item 4: prompt to be validated by domain and education experts,0,4
+5,Computer vision,"IoU, annotation vs. prediction, independent test",Item 5: prompt to be validated by domain and education experts,0,4
+6,Data literacy,"Missing values, admissible ranges, leakage",Item 6: prompt to be validated by domain and education experts,0,4
+7,Regression,Interpreting MAE and R2 for biomass; overfitting,Item 7: prompt to be validated by domain and education experts,0,4
+8,Classification,Recall of rare risk class; threshold and cost of error,Item 8: prompt to be validated by domain and education experts,0,4
+9,Time series,"Baselines, chronological split, horizon",Item 9: prompt to be validated by domain and education experts,0,4
+10,Computer vision,"IoU, annotation vs. prediction, independent test",Item 10: prompt to be validated by domain and education experts,0,4
+11,Data literacy,"Missing values, admissible ranges, leakage",Item 11: prompt to be validated by domain and education experts,0,4
+12,Regression,Interpreting MAE and R2 for biomass; overfitting,Item 12: prompt to be validated by domain and education experts,0,4
+13,Classification,Recall of rare risk class; threshold and cost of error,Item 13: prompt to be validated by domain and education experts,0,4
+14,Time series,"Baselines, chronological split, horizon",Item 14: prompt to be validated by domain and education experts,0,4
+15,Computer vision,"IoU, annotation vs. prediction, independent test",Item 15: prompt to be validated by domain and education experts,0,4
+16,Data literacy,"Missing values, admissible ranges, leakage",Item 16: prompt to be validated by domain and education experts,0,4
+17,Regression,Interpreting MAE and R2 for biomass; overfitting,Item 17: prompt to be validated by domain and education experts,0,4
+18,Classification,Recall of rare risk class; threshold and cost of error,Item 18: prompt to be validated by domain and education experts,0,4
+19,Time series,"Baselines, chronological split, horizon",Item 19: prompt to be validated by domain and education experts,0,4
+20,Computer vision,"IoU, annotation vs. prediction, independent test",Item 20: prompt to be validated by domain and education experts,0,4
